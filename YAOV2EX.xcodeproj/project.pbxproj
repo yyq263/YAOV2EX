@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		20E292D81DEB06C80086D33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E292D71DEB06C80086D33E /* AppDelegate.swift */; };
-		20E292DA1DEB06C80086D33E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E292D91DEB06C80086D33E /* ViewController.swift */; };
 		20E292DD1DEB06C80086D33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E292DB1DEB06C80086D33E /* Main.storyboard */; };
 		20E292DF1DEB06C80086D33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E292DE1DEB06C80086D33E /* Assets.xcassets */; };
 		20E292E21DEB06C80086D33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E292E01DEB06C80086D33E /* LaunchScreen.storyboard */; };
+		20E292EA1DEB07500086D33E /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E292E91DEB07500086D33E /* Search.swift */; };
+		20E292EE1DEC70CE0086D33E /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E292ED1DEC70CE0086D33E /* ForumViewController.swift */; };
+		20E292F21DEDB2A00086D33E /* SlideMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E292F11DEDB2A00086D33E /* SlideMenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20E292D41DEB06C80086D33E /* YAOV2EX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAOV2EX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E292D71DEB06C80086D33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20E292D91DEB06C80086D33E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20E292DC1DEB06C80086D33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20E292DE1DEB06C80086D33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20E292E11DEB06C80086D33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20E292E31DEB06C80086D33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E292E91DEB07500086D33E /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		20E292ED1DEC70CE0086D33E /* ForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		20E292F11DEDB2A00086D33E /* SlideMenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				20E292D71DEB06C80086D33E /* AppDelegate.swift */,
-				20E292D91DEB06C80086D33E /* ViewController.swift */,
+				20E292E91DEB07500086D33E /* Search.swift */,
+				20E292ED1DEC70CE0086D33E /* ForumViewController.swift */,
+				20E292F11DEDB2A00086D33E /* SlideMenuBar.swift */,
 				20E292DB1DEB06C80086D33E /* Main.storyboard */,
 				20E292DE1DEB06C80086D33E /* Assets.xcassets */,
 				20E292E01DEB06C80086D33E /* LaunchScreen.storyboard */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					20E292D31DEB06C80086D33E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z7T2H84A78;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E292DA1DEB06C80086D33E /* ViewController.swift in Sources */,
+				20E292F21DEDB2A00086D33E /* SlideMenuBar.swift in Sources */,
+				20E292EA1DEB07500086D33E /* Search.swift in Sources */,
 				20E292D81DEB06C80086D33E /* AppDelegate.swift in Sources */,
+				20E292EE1DEC70CE0086D33E /* ForumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z7T2H84A78;
 				INFOPLIST_FILE = YAOV2EX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YIQIN-YAO.YAOV2EX";
@@ -270,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z7T2H84A78;
 				INFOPLIST_FILE = YAOV2EX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YIQIN-YAO.YAOV2EX";
